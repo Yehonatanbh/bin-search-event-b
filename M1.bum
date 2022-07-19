@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" version="5">
+    <org.eventb.core.event name="'" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION">
+        <org.eventb.core.action name="'" org.eventb.core.assignment="p ≔ 1" org.eventb.core.label="act1"/>
+        <org.eventb.core.action name="(" org.eventb.core.assignment="q ≔ n" org.eventb.core.label="act2"/>
+        <org.eventb.core.action name=")" org.eventb.core.assignment="r :∈ 1‥n" org.eventb.core.label="act3"/>
+    </org.eventb.core.event>
+    <org.eventb.core.refinesMachine name="(" org.eventb.core.target="M0"/>
+    <org.eventb.core.seesContext name=")" org.eventb.core.target="C0"/>
+    <org.eventb.core.variable name="*" org.eventb.core.comment="Pivot" org.eventb.core.identifier="r"/>
+    <org.eventb.core.variable name="+" org.eventb.core.comment="Lower bound" org.eventb.core.identifier="p"/>
+    <org.eventb.core.variable name="," org.eventb.core.comment="Upper bound" org.eventb.core.identifier="q"/>
+    <org.eventb.core.invariant name="-" org.eventb.core.label="inv1" org.eventb.core.predicate="p ∈ 1‥n"/>
+    <org.eventb.core.invariant name="." org.eventb.core.label="inv2" org.eventb.core.predicate="q ∈ 1‥n"/>
+    <org.eventb.core.invariant name="/" org.eventb.core.label="inv3" org.eventb.core.predicate="r ∈ p‥q"/>
+    <org.eventb.core.invariant name="0" org.eventb.core.label="inv4" org.eventb.core.predicate="v ∈ f[p‥q]"/>
+</org.eventb.core.machineFile>
