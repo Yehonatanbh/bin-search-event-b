@@ -1,0 +1,28 @@
+machine M0
+    sees C0
+
+variables
+    r // The pivot position
+
+invariants
+    @typeof_r:
+        r ∈ ℕ1
+
+events
+    event INITIALISATION
+      then
+        @act1: r :∈ 1‥n
+    end
+
+    event FOUND
+      where
+        @grd1: r ∈ 1‥n
+        @grd2: f(r) = v
+    end
+
+    anticipated event PROGRESS
+      then
+        @act1: r :∈ 1‥n
+    end
+
+end

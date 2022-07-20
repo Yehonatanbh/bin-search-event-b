@@ -1,0 +1,41 @@
+machine M2
+    refines M1
+    sees C0
+
+variables
+    r // Pivot
+    p // Lower bound
+    q // Upper bound
+
+events
+    event INITIALISATION
+      then
+        @act1: p ≔ 1
+        @act2: q ≔ n
+        @act3: r ≔ (1 + n) ÷ 2
+    end
+
+    event FOUND extends FOUND
+    end
+
+    event INC refines INC
+      where
+        @grd1: f(r) < v
+        theorem @grd2: r < q
+        theorem @grd3: v ∈ f[r+1‥q]
+      then
+        @act1: p ≔ r + 1
+        @act2: r ≔  (r+1 + q) ÷ 2
+    end
+
+    event DEC refines DEC
+      where
+        @grd1: f(r) > v
+        theorem @grd2: p < r
+        theorem @grd3: v ∈ f[p‥r−1]
+      then
+        @act1: q ≔ r−1
+        @act2: r ≔ (p + r−1) ÷ 2
+    end
+
+end

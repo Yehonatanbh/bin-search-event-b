@@ -1,0 +1,22 @@
+context C0
+
+constants
+    n //  Size of the array
+    f //  The actuall array
+    v // The variable to look for
+
+axioms
+    @axm1:
+        f ∈ 1‥n → ℕ
+    @axm2:
+        ∀i,j ·  i ∈ 1‥n ∧
+                             j ∈ 1‥ n ∧
+                             i ≤ j
+                  ⇒
+                             f(i) ≤ f(j)
+    @axm3:
+         v ∈ ran(f)
+    theorem @axm4:
+        n ∈ ℕ1
+
+end

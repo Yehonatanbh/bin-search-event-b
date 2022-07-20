@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.poFile org.eventb.core.poStamp="3">
+<org.eventb.core.poFile org.eventb.core.poStamp="7">
     <org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="0">
         <org.eventb.core.poIdentifier name="f" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
         <org.eventb.core.poIdentifier name="n" org.eventb.core.type="ℤ"/>
@@ -19,7 +19,7 @@
         <org.eventb.core.poPredicate name="v" org.eventb.core.predicate="r∈p ‥ q" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#\/"/>
         <org.eventb.core.poPredicate name="w" org.eventb.core.predicate="v∈f[p ‥ q]" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#0"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poSequent name="INITIALISATION/act3/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of action" org.eventb.core.poStamp="1">
+    <org.eventb.core.poSequent name="INITIALISATION/act3/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of action" org.eventb.core.poStamp="7">
         <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC6">
             <org.eventb.core.poPredicate name="'" org.eventb.core.predicate="r'∈1 ‥ n" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'|org.eventb.core.action#("/>
         </org.eventb.core.poPredicateSet>
@@ -27,7 +27,7 @@
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/bin-search/M2.bum|org.eventb.core.machineFile#M2|org.eventb.core.event#-|org.eventb.core.action#("/>
         <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/bin-search/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/bin-search/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC6"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="INITIALISATION/act3/SIM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Action simulation" org.eventb.core.poStamp="1">
+    <org.eventb.core.poSequent name="INITIALISATION/act3/SIM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Action simulation" org.eventb.core.poStamp="7">
         <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M2.bpo|org.eventb.core.poFile#M2|org.eventb.core.poPredicateSet#EVTALLHYPC6"/>
         <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(1+n) ÷ 2∈1 ‥ n" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'|org.eventb.core.action#("/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'"/>

@@ -1,0 +1,56 @@
+machine M1
+    refines M0
+    sees C0
+
+variables
+    r // Pivot
+    p // Lower bound
+    q // Upper bound
+
+invariants
+    @inv1:
+        p ∈ 1‥n
+    @inv2:
+        q ∈ 1‥n
+    @inv3:
+        r ∈ p‥q
+    @inv4:
+        v ∈ f[p‥q]
+
+variant
+    q − p
+
+events
+    event INITIALISATION
+      then
+        @act1: p ≔ 1
+        @act2: q ≔ n
+        @act3: r :∈ 1‥n
+    end
+
+    event FOUND refines FOUND
+      where
+        @grd1: f(r) = v
+    end
+
+    convergent event INC refines PROGRESS
+      where
+        @grd1: f(r) < v
+        theorem @grd2: r < q
+        theorem @grd3: v ∈ f[r+1‥q]
+      then
+        @act1: p ≔ r + 1
+        @act2: r :∈  r+1‥q
+    end
+
+    convergent event DEC refines PROGRESS
+      where
+        @grd1: f(r) > v
+        theorem @grd2: p < r
+        theorem @grd3: v ∈ f[p‥r−1]
+      then
+        @act1: q ≔ r−1
+        @act2: r :∈ p‥r−1
+    end
+
+end
