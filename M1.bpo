@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.poFile org.eventb.core.poStamp="18">
+<org.eventb.core.poFile org.eventb.core.poStamp="19">
     <org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="0">
         <org.eventb.core.poIdentifier name="f" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
         <org.eventb.core.poIdentifier name="n" org.eventb.core.type="ℤ"/>
@@ -33,9 +33,9 @@
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#INITIALISATION\/inv2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD1"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="INITIALISATION/inv3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="5">
+    <org.eventb.core.poSequent name="INITIALISATION/inv3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="19">
         <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPC7">
-            <org.eventb.core.poPredicate name="'" org.eventb.core.predicate="r'∈1 ‥ n" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'|org.eventb.core.action#internal1"/>
+            <org.eventb.core.poPredicate name="'" org.eventb.core.predicate="r'∈1 ‥ n" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'|org.eventb.core.action#("/>
         </org.eventb.core.poPredicateSet>
         <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="r'∈1 ‥ n" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#\/"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/bin-search/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#'"/>
