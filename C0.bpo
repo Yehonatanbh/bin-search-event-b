@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.poFile org.eventb.core.poStamp="22">
+<org.eventb.core.poFile org.eventb.core.poStamp="23">
     <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="2">
         <org.eventb.core.poIdentifier name="f" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
         <org.eventb.core.poIdentifier name="n" org.eventb.core.type="ℤ"/>
@@ -11,12 +11,20 @@
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/bin-search/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#,"/>
         <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/bin-search/C0.bpo|org.eventb.core.poFile#C0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/bin-search/C0.bpo|org.eventb.core.poFile#C0|org.eventb.core.poPredicateSet#HYP'"/>
     </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="axm4/THM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="23">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/C0.bpo|org.eventb.core.poFile#C0|org.eventb.core.poPredicateSet#HYP)"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="n∈ℕ1" org.eventb.core.source="/bin-search/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#."/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/bin-search/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#."/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/bin-search/C0.bpo|org.eventb.core.poFile#C0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/bin-search/C0.bpo|org.eventb.core.poFile#C0|org.eventb.core.poPredicateSet#HYP)"/>
+    </org.eventb.core.poSequent>
     <org.eventb.core.poPredicateSet name="HYP'" org.eventb.core.parentSet="/bin-search/C0.bpo|org.eventb.core.poFile#C0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
         <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="f∈1 ‥ n → ℕ" org.eventb.core.source="/bin-search/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#+"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/bin-search/C0.bpo|org.eventb.core.poFile#C0|org.eventb.core.poPredicateSet#HYP'" org.eventb.core.poStamp="22">
+    <org.eventb.core.poPredicateSet name="HYP)" org.eventb.core.parentSet="/bin-search/C0.bpo|org.eventb.core.poFile#C0|org.eventb.core.poPredicateSet#HYP'" org.eventb.core.poStamp="0">
         <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="∀i⦂ℤ,j⦂ℤ·i∈1 ‥ n∧j∈1 ‥ n∧i≤j⇒f(i)≤f(j)" org.eventb.core.source="/bin-search/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#,"/>
         <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="v∈ran(f)" org.eventb.core.source="/bin-search/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#-"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/bin-search/C0.bpo|org.eventb.core.poFile#C0|org.eventb.core.poPredicateSet#HYP)" org.eventb.core.poStamp="23">
         <org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="n∈ℕ1" org.eventb.core.source="/bin-search/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#."/>
     </org.eventb.core.poPredicateSet>
 </org.eventb.core.poFile>
