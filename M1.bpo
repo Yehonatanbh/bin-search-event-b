@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.poFile org.eventb.core.poStamp="0">
+<org.eventb.core.poFile org.eventb.core.poStamp="10">
     <org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="0">
         <org.eventb.core.poIdentifier name="f" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
         <org.eventb.core.poIdentifier name="n" org.eventb.core.type="ℤ"/>
@@ -15,8 +15,8 @@
         <org.eventb.core.poIdentifier name="r" org.eventb.core.type="ℤ"/>
         <org.eventb.core.poPredicate name="s" org.eventb.core.predicate="r∈ℕ1" org.eventb.core.source="/bin-search/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.invariant#*"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poSequent name="INITIALISATION/inv1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="0">
-        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPC6"/>
+    <org.eventb.core.poSequent name="INITIALISATION/inv1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="5">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPC7"/>
         <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="1∈1 ‥ n" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#-"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/bin-search/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#'"/>
         <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'"/>
@@ -24,8 +24,8 @@
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#INITIALISATION\/inv1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="INITIALISATION/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="0">
-        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPC6"/>
+    <org.eventb.core.poSequent name="INITIALISATION/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="5">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPC7"/>
         <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="n∈1 ‥ n" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#."/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/bin-search/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#'"/>
         <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'"/>
@@ -33,9 +33,9 @@
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#INITIALISATION\/inv2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD1"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="INITIALISATION/inv3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="0">
-        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPC6">
-            <org.eventb.core.poPredicate name="'" org.eventb.core.predicate="r'∈1 ‥ n" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'|org.eventb.core.action#)"/>
+    <org.eventb.core.poSequent name="INITIALISATION/inv3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="5">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPC7">
+            <org.eventb.core.poPredicate name="'" org.eventb.core.predicate="r'∈1 ‥ n" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'|org.eventb.core.action#internal1"/>
         </org.eventb.core.poPredicateSet>
         <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="r'∈1 ‥ n" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#\/"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/bin-search/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#'"/>
@@ -44,8 +44,8 @@
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#INITIALISATION\/inv3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="INITIALISATION/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="0">
-        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPC6"/>
+    <org.eventb.core.poSequent name="INITIALISATION/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="5">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPC7"/>
         <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="v∈f[1 ‥ n]" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#0"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/bin-search/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#'"/>
         <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'"/>
@@ -53,12 +53,201 @@
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#INITIALISATION\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poPredicateSet name="EVTIDENTC6" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+    <org.eventb.core.poPredicateSet name="EVTIDENTC7" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="3">
         <org.eventb.core.poIdentifier name="r'" org.eventb.core.type="ℤ"/>
         <org.eventb.core.poIdentifier name="p'" org.eventb.core.type="ℤ"/>
         <org.eventb.core.poIdentifier name="q'" org.eventb.core.type="ℤ"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poPredicateSet name="EVTALLHYPC6" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTIDENTC6" org.eventb.core.poStamp="0"/>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPC7" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTIDENTC7" org.eventb.core.poStamp="3"/>
+    <org.eventb.core.poSequent name="FOUND/grd1/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="6">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="r∈dom(f)∧f∈ℤ ⇸ ℤ" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4|org.eventb.core.guard#'"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4|org.eventb.core.guard#'"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="FOUND/grd1/GRD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Guard strengthening (split)" org.eventb.core.poStamp="7">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPC8"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="r∈1 ‥ n" org.eventb.core.source="/bin-search/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#+|org.eventb.core.guard#'"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/bin-search/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#+"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/bin-search/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#+|org.eventb.core.guard#'"/>
+        <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#FOUND\/grd1\/GRD|org.eventb.core.poPredicateSet#SEQHYP"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPC8" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="7">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="f(r)=v" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#4|org.eventb.core.guard#'"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poSequent name="INC/grd1/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="7">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTIDENTC9"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="r∈dom(f)∧f∈ℤ ⇸ ℤ" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#1|org.eventb.core.guard#("/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#1|org.eventb.core.guard#("/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTIDENTC9"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="INC/grd2/THM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="10">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTHYPC9("/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="r&lt;q" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#1|org.eventb.core.guard#+"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#1|org.eventb.core.guard#+"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTHYPC9("/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="INC/inv1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="10">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPC9"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="r+1∈1 ‥ n" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#-"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/bin-search/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#,"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#1"/>
+        <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#-"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#INC\/inv1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="INC/inv3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="10">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPC9">
+            <org.eventb.core.poPredicate name="'" org.eventb.core.predicate="r'∈r+1 ‥ q" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#1|org.eventb.core.action#*"/>
+        </org.eventb.core.poPredicateSet>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="r'∈r+1 ‥ q" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#\/"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/bin-search/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#,"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#1"/>
+        <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#\/"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#INC\/inv3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="INC/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="10">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPC9"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="v∈f[r+1 ‥ q]" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#0"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/bin-search/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#,"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#1"/>
+        <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#0"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#INC\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="INC/act2/FIS" org.eventb.core.accurate="true" org.eventb.core.poDesc="Feasibility of action" org.eventb.core.poStamp="10">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPC9">
+            <org.eventb.core.poPredicate name="'" org.eventb.core.predicate="r'∈1 ‥ n" org.eventb.core.source="/bin-search/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#,|org.eventb.core.action#'"/>
+        </org.eventb.core.poPredicateSet>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="r+1 ‥ q≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#1|org.eventb.core.action#*"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#1|org.eventb.core.action#*"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPC9"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="INC/act1/SIM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Action simulation" org.eventb.core.poStamp="10">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPC9">
+            <org.eventb.core.poPredicate name="'" org.eventb.core.predicate="r'∈r+1 ‥ q" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#1|org.eventb.core.action#*"/>
+        </org.eventb.core.poPredicateSet>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="r'∈1 ‥ n" org.eventb.core.source="/bin-search/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#,|org.eventb.core.action#'"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/bin-search/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#,"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/bin-search/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#,|org.eventb.core.action#'"/>
+        <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#1"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#INC\/act1\/SIM|org.eventb.core.poPredicateSet#SEQHYP"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="INC/vrn1/NAT" org.eventb.core.accurate="true" org.eventb.core.poDesc="Natural number variant of event" org.eventb.core.poStamp="10">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPC9"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="q − p∈ℕ" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variant#3"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#1"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variant#3"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#INC\/vrn1\/NAT|org.eventb.core.poPredicateSet#SEQHYP"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="INC/vrn1/VAR" org.eventb.core.accurate="true" org.eventb.core.poDesc="Variant of event" org.eventb.core.poStamp="10">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPC9"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="q − (r+1)&lt;q − p" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variant#3"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#1"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variant#3"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#INC\/vrn1\/VAR|org.eventb.core.poPredicateSet#SEQHYP"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poPredicateSet name="EVTIDENTC9" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="7">
+        <org.eventb.core.poIdentifier name="r'" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="p'" org.eventb.core.type="ℤ"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTHYPC9(" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTIDENTC9" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="f(r)&lt;v" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#1|org.eventb.core.guard#("/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPC9" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTHYPC9(" org.eventb.core.poStamp="10">
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="r&lt;q" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#1|org.eventb.core.guard#+"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poSequent name="DEC/grd1/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Theorem" org.eventb.core.poStamp="7">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTIDENTC:"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="r∈dom(f)∧f∈ℤ ⇸ ℤ" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2|org.eventb.core.guard#'"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2|org.eventb.core.guard#'"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTIDENTC:"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="DEC/grd1/THM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="7">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTIDENTC:"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="f(r)&gt;v" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2|org.eventb.core.guard#'"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2|org.eventb.core.guard#'"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTIDENTC:"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="DEC/grd2/THM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="10">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTHYPC:("/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="r&gt;p" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2|org.eventb.core.guard#+"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2|org.eventb.core.guard#+"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTHYPC:("/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="DEC/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="10">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPC:"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="r − 1∈1 ‥ n" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#."/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/bin-search/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#,"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2"/>
+        <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#."/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#DEC\/inv2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD1"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="DEC/inv3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="10">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPC:">
+            <org.eventb.core.poPredicate name="'" org.eventb.core.predicate="r'∈q ‥ r − 1" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2|org.eventb.core.action#*"/>
+        </org.eventb.core.poPredicateSet>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="r'∈p ‥ r − 1" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#\/"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/bin-search/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#,"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2"/>
+        <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#\/"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#DEC\/inv3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="DEC/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="10">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPC:"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="v∈f[p ‥ r − 1]" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#0"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/bin-search/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#,"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2"/>
+        <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#0"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#DEC\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="DEC/act2/FIS" org.eventb.core.accurate="true" org.eventb.core.poDesc="Feasibility of action" org.eventb.core.poStamp="10">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPC:">
+            <org.eventb.core.poPredicate name="'" org.eventb.core.predicate="r'∈1 ‥ n" org.eventb.core.source="/bin-search/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#,|org.eventb.core.action#'"/>
+        </org.eventb.core.poPredicateSet>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="q ‥ r − 1≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2|org.eventb.core.action#*"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2|org.eventb.core.action#*"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPC:"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="DEC/act1/SIM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Action simulation" org.eventb.core.poStamp="10">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPC:">
+            <org.eventb.core.poPredicate name="'" org.eventb.core.predicate="r'∈q ‥ r − 1" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2|org.eventb.core.action#*"/>
+        </org.eventb.core.poPredicateSet>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="r'∈1 ‥ n" org.eventb.core.source="/bin-search/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#,|org.eventb.core.action#'"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/bin-search/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#,"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/bin-search/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#,|org.eventb.core.action#'"/>
+        <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#DEC\/act1\/SIM|org.eventb.core.poPredicateSet#SEQHYP"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="DEC/vrn1/NAT" org.eventb.core.accurate="true" org.eventb.core.poDesc="Natural number variant of event" org.eventb.core.poStamp="10">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPC:"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="q − p∈ℕ" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variant#3"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variant#3"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#DEC\/vrn1\/NAT|org.eventb.core.poPredicateSet#SEQHYP"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="DEC/vrn1/VAR" org.eventb.core.accurate="true" org.eventb.core.poDesc="Variant of event" org.eventb.core.poStamp="10">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPC:"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="r − 1 − p&lt;q − p" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variant#3"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variant#3"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#DEC\/vrn1\/VAR|org.eventb.core.poPredicateSet#SEQHYP"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poPredicateSet name="EVTIDENTC:" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poIdentifier name="r'" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="q'" org.eventb.core.type="ℤ"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTHYPC:(" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTIDENTC:" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="f(r)&gt;v" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2|org.eventb.core.guard#'"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPC:" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTHYPC:(" org.eventb.core.poStamp="10">
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="r&gt;p" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#2|org.eventb.core.guard#+"/>
+    </org.eventb.core.poPredicateSet>
     <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/bin-search/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
         <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="p∈1 ‥ n" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#-"/>
         <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="q∈1 ‥ n" org.eventb.core.source="/bin-search/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#."/>
