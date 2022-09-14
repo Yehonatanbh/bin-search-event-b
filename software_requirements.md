@@ -1,4 +1,4 @@
-# Requirements Document – Binary search
+# Requirements Document
 Binary search is an algorithm for finding a specific item in an ordered array in O(log(n)).
 The algorithm consists of iterations, and we’ll want to ensure that after each iteration all the invariants still apply.
 
@@ -12,6 +12,7 @@ The algorithm consists of iterations, and we’ll want to ensure that after each
 - The value in cell p Is pointing on <= “item” <= The value in the cell q Is pointing on.
 - The value of “q - p” in one iteration is greater than the value in the next iteration.
 
-# Compliment proofs 
-## (we’ll leave that to the reader)
+# Compliment proofs
+#### (we’ll leave that to the reader)
+
 Assuming all the above, after enough iterations the equation “array[r] = item” will hold.
